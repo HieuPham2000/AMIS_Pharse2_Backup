@@ -1,0 +1,20 @@
+/* margin */
+/* .ms-form-container .form-content {
+  margin: 0 10px !important;
+}
+
+.ms-form .form-content-part:not(:last-child) {
+  margin-bottom: 10px !important;
+}
+
+.ms-form-container .form-footer {
+  margin: 32px 10px 20px 10px !important;
+} */
+
+/* header */
+.ms-form-container .form-header-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 12px;
+}

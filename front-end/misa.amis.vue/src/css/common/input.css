@@ -1,0 +1,180 @@
+.ms-input {
+  border-radius: 2px;
+  border: 1px solid #babec5;
+  background-color: #fff;
+  outline: none;
+  font-size: 13px;
+  height: var(--ms-input-height);
+  padding: 6px 10px;
+  width: 100%;
+}
+
+.ms-input:disabled {
+  background-color: var(--ms-input-disabled-bg-color);
+}
+
+.ms-input::placeholder {
+  color: #949494;
+  font-family: var(--font-italic);
+  font-size: 12px;
+}
+
+.ms-input:focus {
+  border: 1px solid #2ca01c;
+}
+
+.ms-input.ms-input-validate-error {
+  /* border: 1px solid #ff0000; */
+  border: 1px solid #f77;
+}
+
+/* search box */
+.ms-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ms-search .ms-input {
+  padding-right: 28px;
+}
+
+/* checkbox */
+.ms-checkbox-container {
+  display: flex;
+  align-items: center;
+}
+.ms-checkbox-label {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.ms-checkbox {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: #fff !important;
+  border: 1px solid #afafaf;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.ms-checkbox .ms-checkbox-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  /* display: none; */
+  cursor: pointer;
+}
+
+.ms-checkbox .ms-checkbox-icon {
+  display: none;
+}
+
+.ms-checkbox.active {
+  border: 1px solid #2ca01c;
+}
+.ms-checkbox .ms-checkbox-input:checked + .ms-checkbox-icon {
+  display: block;
+}
+/* .ms-checkbox.active .ms-checkbox-icon {
+  display: block;
+} */
+/* .ms-checkbox:focus-within {
+  box-shadow: 0 0px 8px #2ca01c;
+} */
+
+
+/* radio button */
+.ms-radio-container {
+  display: flex;
+  align-items: center;
+  height: var(--ms-input-height);
+}
+.ms-radio-label {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.ms-radio {
+  position: relative;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border: 1px solid #afafaf;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ms-radio .ms-radio-icon {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2ca01c;
+  opacity: 0;
+}
+
+.ms-radio .ms-radio-input {
+  opacity: 0;
+}
+.ms-radio.active {
+  border: 1px solid #2ca01c;
+}
+
+.ms-radio.active .ms-radio-icon {
+  opacity: 1;
+}
+
+.ms-radio:focus-within {
+  box-shadow: 0 0px 8px #2ca01c;
+}
+
+/* label */
+.ms-input-label {
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 4px;
+  white-space: nowrap;
+}
+.ms-input-label-required {
+  color: red;
+}
+
+/* input decimal */
+.ms-input-decimal, .ms-input-decimal::placeholder {
+  text-align: right !important;
+}
+
+/* tooltip */
+.ms-input-tooltip .tooltip-inner {
+  border-radius: 3px;
+  font-size: 12px !important;
+  padding: 6px 10px !important;
+  background-color: #f77;
+}
+.ms-input-tooltip .tooltip-arrow {
+  border-color: #f77;
+}
+
+/* icon error */
+.input-wrapper {
+  position: relative;
+}
+.input-wrapper  .error-icon {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper  .error-icon + .ms-input {
+  padding-right: 26px !important;
+}

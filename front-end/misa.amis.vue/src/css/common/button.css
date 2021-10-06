@@ -1,0 +1,114 @@
+.ms-btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ms-btn:disabled {
+  cursor: default;
+  color: #9e9e9e !important;
+  /* color: #9e9e9e; */
+}
+
+.ms-btn-text {
+  font-family: var(--font-semibold);
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  height: 36px;
+  white-space: nowrap;
+}
+
+.ms-btn-primary, .ms-btn-primary:disabled {
+  background-color: #2ca01c;
+  color: #ffffff !important;
+}
+
+.ms-btn-primary:hover, .ms-btn-primary:focus {
+  background-color: #35bf22;
+}
+
+.ms-btn-primary:active {
+  background-color: #248b15;
+}
+
+.ms-btn-secondary, .ms-btn-secondary:disabled {
+  border: 1px solid #8d9096;
+  color: #111 !important;
+  background-color: transparent;
+}
+.ms-btn-secondary:hover, .ms-btn-secondary:focus {
+  background-color: #d2d3d6;
+}
+.ms-btn-secondary:active {
+  background-color: #bbbcbc;
+}
+
+.ms-btn-num-page {
+  padding: 0 6px;
+  border: 1px solid transparent;
+  height: 20px;
+  line-height: 20px;
+  color: #111;
+}
+.ms-btn-num-page.active {
+  color: #000;
+  border: 1px solid #e0e0e0;
+  font-weight: 700;
+}
+
+.ms-btn-prev-page,
+.ms-btn-next-page {
+  margin: 0 13px;
+}
+
+/* btn dropdown */
+/* btn dropdown secondary */
+.ms-btn-dropdown-container {
+  position: relative;
+  height: 36px;
+}
+
+.ms-btn-dropdown-secondary {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 16px;
+  border: 2px solid #111;
+  border-radius: 30px;
+  color: #111;
+}
+
+.ms-btn-dropdown-secondary .text {
+  font-size: 13px;
+  color: #111;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.ms-btn-dropdown-secondary:not(:disabled):hover,
+.ms-btn-dropdown-secondary:focus-visible {
+  background-color: #d2d3d6;
+}
+.ms-btn-dropdown-secondary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.ms-btn-dropdown-secondary:disabled .ms-icon {
+  cursor: default !important;
+}
+
+.ms-btn-dropdown-container .dropdown {
+  /* position: fixed; */
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #babec5;
+  border-radius: 2px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  z-index: 6;
+}

@@ -1,0 +1,66 @@
+
+/* toolbar */
+.toolbar > .ms-btn-primary {
+  margin-right: 6px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar > .ms-search{
+  margin-right: 12px;
+}
+
+.toolbar .toolbar-btn-filter{
+  margin-right: 12px;
+}
+.toolbar-btn-filter .dropdown {
+  width: 460px;
+  padding: 16px 20px;
+}
+.toolbar-btn-filter .dropdown .dropdown-body .row {
+  display: flex;
+}
+.toolbar-btn-filter .dropdown .row-item {
+  flex: 1;
+}
+.toolbar-btn-filter .dropdown .row-item:not(:last-child) {
+  margin-right: 12px;
+}
+.toolbar-btn-filter .dropdown .row:not(:last-child) {
+  margin-bottom: 12px;
+}
+.toolbar-btn-filter .dropdown .row-item .date-filter-cbx {
+  width: 150px;
+}
+.toolbar-btn-filter .dropdown .dropdown-footer {
+  display: flex;
+  padding-top: 32px;
+}
+
+.toolbar .filter-list-container {
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 12px;
+}
+
+.toolbar .filter-list-item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 10px;
+  height: 36px;
+}
+.toolbar .filter-list-item.clearable {
+  color: #0075c0;
+}
+.toolbar .filter-list-item.clearable .btn-remove{
+  margin-left: 4px;
+}
+
+.toolbar > *:not(.filter-list-container) {
+  align-self: flex-start;
+  min-height: 36px;
+}

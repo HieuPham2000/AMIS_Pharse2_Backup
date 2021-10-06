@@ -1,0 +1,84 @@
+.menu {
+  /* width: fit-content; */
+  width: auto;
+  height: 100vh;
+  background-color: #393a3d;
+}
+
+
+/* vùng chứa logo */
+.menu .logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 48px;
+}
+
+.menu .logo-container .menu-option {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu .logo-container .logo {
+  height: 32px;
+  width: 96px;
+  background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu.collapse {
+  width: 52px;
+}
+.menu.collapse .logo-container .logo,
+.menu.collapse .menu-item .menu-item-text {
+  display: none;
+}
+.menu.collapse .logo-container .menu-option,
+.menu.collapse .menu-item .menu-item-icon {
+  margin-right: 0;
+}
+
+
+/* vùng chứa menu item */
+.menu .menu-item-container {
+  height: calc(100vh - 48px);
+  padding-top: 14px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.menu .menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 42px;
+  border-left: 6px solid transparent;
+  padding-left: 8px;
+  padding-right: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu .menu-item:hover {
+  background-color: #5d5d61;
+}
+
+.menu .menu-item.active {
+  border-left-color: #2ca01c;
+  background-color: #5d5d61;
+}
+
+.menu .menu-item.active .menu-item-text {
+  font-family: var(--font-bold);
+}
+
+.menu .menu-item .menu-item-icon {
+  margin-right: 8px;
+}
+
+
+

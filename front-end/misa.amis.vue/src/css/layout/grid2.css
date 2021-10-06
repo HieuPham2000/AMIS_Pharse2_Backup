@@ -1,0 +1,187 @@
+.input-number {
+  text-align: right;
+}
+/* style vùng grid */
+
+.ms-editable-grid-container {
+  position: relative;
+  height: auto;
+}
+
+.ms-editable-grid-container .ms-grid {
+  position: relative;
+  min-height: 100%;
+  user-select: none;
+}
+
+/* style cho table */
+
+.ms-grid .ms-grid-table {
+  width: 100%;
+  table-layout: fixed;
+  cursor: default;
+}
+
+/* style cho row, cell */
+
+/* set sticky cho table header */
+
+.ms-grid .ms-grid-th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 150px;
+  height: 42px;
+  padding: 0 10px;
+  z-index: 2;
+  font-size: 13px;
+  background-color: #eceef1;
+}
+
+.ms-grid .ms-grid-td {
+  width: 150px;
+  height: 42px;
+  padding: 5px 10px;
+  font-size: 13px;
+  background-color: #ffffff;
+}
+
+.ms-grid .ms-grid-th, .ms-grid .ms-grid-td {
+  text-align: left;
+  /* line-height: 42px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px solid #dbdbdb;
+  /* border-bottom: 1px solid #c7c7c7; */
+  border-right: 1px dotted #c7c7c7;
+}
+
+.ms-grid .ms-grid-tbody .ms-grid-row:hover .ms-grid-td {
+  background-color: #f3f8f8;
+}
+
+.ms-grid .ms-grid-tbody .ms-grid-row.active .ms-grid-td {
+  background-color: #f8f8f8;
+}
+.ms-grid .ms-grid-tbody .ms-grid-row.active:hover .ms-grid-td {
+  background-color: #f3f8f8;
+}
+
+/* fix cột khi grid scroll */
+
+.ms-grid .fixed-left {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+}
+
+/* .ms-grid .ms-grid-td:nth-child(2).fixed-left,
+.ms-grid .ms-grid-th:nth-child(2).fixed-left {
+  left: 40px;
+} */
+
+.ms-grid .fixed-right {
+  position: -webkit-sticky;
+  position: sticky;
+  right: 0;
+  /* border-left: 1px dotted #c7c7c7;
+  border-right: none; */
+}
+
+.ms-grid-th.fixed-left, .ms-grid-th.fixed-right {
+  z-index: 5;
+}
+
+/* style cho cột checkbox */
+
+.ms-grid .grid-checkbox {
+  padding: 0 10px;
+  width: 40px;
+  text-align: center;
+}
+.ms-grid .row-index, .ms-grid .row-feature {
+  width: 40px;
+  text-align: center;
+}
+
+.ms-grid .row-feature {
+  border-left: 1px dotted #c7c7c7;
+}
+
+
+
+
+/* summary */
+.ms-editable-grid-container .ms-grid-tfoot .ms-grid-th {
+  border: none !important;
+  background-color: #f8f9fe;
+}
+
+
+/* context menu */
+.ms-context-menu {
+  box-sizing: content-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  z-index: 5;
+  background: #fff;
+  padding: 2px 1px;
+  border-radius: 2px;
+  border: 1px solid #babec5;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.ms-context-menu .ms-context-menu-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  height: 28px;
+  padding: 5px 10px;
+  text-align: left;
+  min-width: 100px;
+  font-weight: 400;
+  font-size: 13px;
+  transition: all 0.1s ease-out;
+}
+
+.ms-context-menu .ms-context-menu-item:hover {
+  background-color: #e8e9ec;
+  color: #08bf1e;
+}
+
+/* style cho cột chức năng */
+
+.ms-grid .grid-feature {
+  text-align: center;
+  width: 120px;
+}
+
+.ms-grid .ms-grid-td.grid-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ms-grid .feature-item {
+  width: 26px;
+  cursor: pointer;
+  /* border: 1px solid transparent; */
+}
+
+.ms-grid .feature-item:hover {
+  opacity: 0.6;
+}
+
+/* .ms-grid .feature-item:active, .ms-grid .feature-item:focus {
+  border: 1px solid #0075c0;
+  outline: none;
+} */
+.ms-grid .feature-item-icon{
+  font-size: 13px;
+  color: #0075c0;
+}
+

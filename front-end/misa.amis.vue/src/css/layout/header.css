@@ -1,0 +1,41 @@
+.header {
+  width: auto;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: var(--font-semibold);
+}
+
+.header .header-btn {
+  margin: 0 10px;
+}
+
+.header .header-company,
+.header .account-info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header .notify {
+  width: 24px;
+  height: 24px;
+}
+
+.header .account-info .account-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+  background-position: -352px -894px;
+  margin-right: 10px;
+}
+
+
+

@@ -1,0 +1,76 @@
+.ms-combobox .ms-combobox-dropdown.ms-dropdown-grid {
+  max-width: 1000px;
+  width: auto;
+  max-height: 192px;
+  padding: 0;
+  overflow: auto;
+  user-select: none;
+}
+
+.ms-combobox .ms-combobox-dropdown.ms-dropdown-grid .ms-dropdown-grid-item {
+  scroll-margin-top: 32px;
+}
+/* .ms-dropdown-grid-container .ms-dropdown-grid {
+  position: relative;
+  min-height: 100%;
+  overflow: auto;
+  user-select: none;
+} */
+
+.ms-dropdown-grid .ms-grid-table {
+  width: 100%;
+  table-layout: fixed;
+  cursor: default;
+}
+/* td, tr */
+.ms-dropdown-grid .ms-grid-th , .ms-dropdown-grid .ms-grid-td {
+  min-width: 150px;
+  height: 32px;
+  font-size: 13px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ms-dropdown-grid .ms-grid-th {
+  left: 0;
+  position: sticky;
+  top: 0;
+  padding: 0 10px;
+  z-index: 2;
+  background-color: #f8f9fe;
+}
+
+.ms-dropdown-grid .ms-grid-td {
+  padding: 0px 10px;
+  background-color: #ffffff;
+}
+
+.ms-dropdown-grid .ms-dropdown-grid-item {
+  cursor: pointer;
+}
+
+/* hover, active, selected */
+.ms-dropdown-grid .ms-grid-row:hover .ms-grid-td {
+  background-color: #e8e9ec;
+  color: #08bf1e;
+}
+
+.ms-dropdown-grid .ms-grid-row.active .ms-grid-td {
+  background-color: #e8e9ec;
+  color: #08bf1e;
+}
+
+.ms-dropdown-grid .ms-grid-row.selected .ms-grid-td {
+  color: #fff;
+  background-color: #2ca01c;
+}
+
+/* item thông báo: không có dữ liệu, không có kết quả khớp */
+.ms-dropdown-grid .item-notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 32px;
+}

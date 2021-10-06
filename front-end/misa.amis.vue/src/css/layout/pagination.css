@@ -1,0 +1,13 @@
+.paging-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 46px;
+}
+
+/* các nút chuyển trang */
+.paging-bar .paging-button {
+  display: flex;
+  align-items: center;
+  /* margin-right: 20px; */
+}

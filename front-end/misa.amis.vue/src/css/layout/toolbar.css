@@ -1,0 +1,36 @@
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 16px 16px 20px 16px; */
+  padding: 20px;
+}
+
+.toolbar .ms-search{
+  /* width: 240px; */
+  width: 300px;
+  margin-right: 10px;
+}
+
+.toolbar .ms-search .ms-input{
+  height: 32px;
+}
+
+.toolbar .toolbar-btn-icon {
+  margin: 0 6px;
+}
+
+/* icon fontawesome */
+.toolbar .ms-icon {
+  font-size: 24px;
+  color: #b8bcc3;
+}
+.toolbar .ms-icon:hover {
+  font-size: 24px;
+  color: #6b6c72;
+}
+
+.toolbar .far, .toolbar .fas {
+  font-size: inherit;
+  color: inherit;
+}

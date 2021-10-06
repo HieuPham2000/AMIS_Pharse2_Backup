@@ -1,0 +1,281 @@
+.ms-icon {
+  background-image: url("../../assets/img/Sprites.64af8f61.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.ms-icon-48 {
+  width: 48px;
+  height: 48px;
+}
+
+.ms-icon-32 {
+  width: 32px;
+  height: 32px;
+}
+
+.ms-icon-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.ms-icon-18 {
+  width: 18px;
+  height: 18px;
+}
+.ms-icon-16 {
+  width: 16px;
+  height: 16px;
+}
+
+.ms-icon-14 {
+  width: 14px;
+  height: 14px;
+}
+
+
+
+.ms-icon-menu-option {
+  background-position: -424px -86px;
+}
+.ms-icon-toggle {
+  background-position: -843px -30px;
+}
+.ms-icon-sidebar-toggle {
+  background-position: -312px -32px;
+}
+
+.ms-icon-sidebar-dashboard {
+  background-position: -30px -1628px;
+}
+
+  .active .ms-icon-sidebar-dashboard {
+    background-position: -30px -1585px;
+  }
+
+.ms-icon-sidebar-employee {
+  background-position: -249px -1628px;
+}
+
+  .active .ms-icon-sidebar-employee {
+    background-position: -249px -1585px;
+  }
+
+.ms-icon-sidebar-cash {
+  background-position: -73px -1628px;
+}
+
+  .active .ms-icon-sidebar-cash {
+    background-position: -73px -1585px;
+  }
+
+.ms-icon-sidebar-deposit {
+  background-position: -117px -1628px;
+}
+
+  .active .ms-icon-sidebar-deposit {
+    background-position: -117px -1585px;
+  }
+
+.ms-icon-sidebar-purchase {
+  background-position: -161px -1628px;
+}
+
+  .active .ms-icon-sidebar-purchase {
+    background-position: -161px -1585px;
+  }
+
+.ms-icon-sidebar-sell {
+  background-position: -204px -1628px;
+}
+
+  .active .ms-icon-sidebar-sell {
+    background-position: -204px -1585px;
+  }
+
+.ms-icon-sidebar-invoice {
+  background-position: -249px -1628px;
+}
+
+  .active .ms-icon-sidebar-invoice {
+    background-position: -249px -1585px;
+  }
+
+.ms-icon-sidebar-stock {
+  background-position: -291px -1628px;
+}
+
+  .active .ms-icon-sidebar-stock {
+    background-position: -291px -1585px;
+  }
+
+.ms-icon-sidebar-tool {
+  background-position: -336px -1628px;
+}
+
+  .active .ms-icon-sidebar-tool {
+    background-position: -336px -1585px;
+  }
+
+.ms-icon-sidebar-fixed-asset {
+  background-position: -378px -1630px;
+}
+
+  .active .ms-icon-sidebar-fixed-asset {
+    background-position: -378px -1585px;
+  }
+
+.ms-icon-sidebar-tax {
+  background-position: -423px -1630px;
+}
+
+  .active .ms-icon-sidebar-tax {
+    background-position: -423px -1585px;
+  }
+
+.ms-icon-sidebar-price {
+  background-position: -467px -1628px;
+}
+
+  .active .ms-icon-sidebar-price {
+    background-position: -467px -1585px;
+  }
+
+.ms-icon-sidebar-general {
+  background-position: -510px -1628px;
+}
+
+  .active .ms-icon-sidebar-general {
+    background-position: -510px -1585px;
+  }
+
+.ms-icon-sidebar-budget {
+  background-position: -378px -1659px;
+}
+
+  .active .ms-icon-sidebar-budget {
+    background-position: -378px -1585px;
+  }
+
+.ms-icon-sidebar-report {
+  background-position: -547px -1628px;
+}
+
+  .active .ms-icon-sidebar-report {
+    background-position: -547px -1585px;
+  }
+
+.ms-icon-sidebar-finance {
+  background-position: -204px -1664px;
+}
+
+  .active .ms-icon-sidebar-finance {
+    background-position: -248px -1664px;
+  }
+
+.ms-icon-chevron-down {
+  background-position: -80px -360px;
+  transform: rotate(90deg);
+}
+.ms-icon-chevron-down-light {
+  background-position: -1076px -32px;
+}
+.ms-icon-bell {
+  background-position: -788px -30px;
+}
+.ms-icon-cog {
+  background-position: -144px -32px;
+}
+.ms-icon-cog:hover {
+  background-position: -675px -30px;
+}
+.ms-icon-refresh {
+  background-position: -423px -201px;
+}
+.ms-icon-refresh:hover {
+  background-position: -1097px -88px;
+}
+.ms-icon-excel {
+  background-position: -704px -200px;
+}
+.ms-icon-excel:hover {
+  background-position: -704px -256px;
+}
+
+.ms-icon-search {
+  background-position: -992px -360px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+}
+
+.ms-icon-question-circle {
+  background-position: -826px -456px;
+}
+
+.ms-icon-checked {
+  background-position: -1224px -360px;
+}
+
+.ms-icon-arrow-down-blue {
+  background-position: -896px -359px;
+}
+
+.ms-icon-arrow-dropdown {
+  background-position: -560px -359px;
+}
+
+.ms-icon-recent {
+  background-position: -648px -144px;
+}
+
+.ms-icon-guide {
+  background-position: -984px -144px;
+}
+
+.ms-icon-detail-setting {
+  background-position: -32px -144px;
+}
+
+.ms-icon-help {
+  background-position: -89px -144px;
+}
+
+.ms-icon-close {
+  background-position: -144px -144px;
+}
+
+.ms-icon-close-small {
+  background-position: -80px -312px;
+}
+
+.ms-icon-warning-triangle {
+  background-position: -592px -456px;
+}
+.ms-icon-error-circle {
+  background-position: -24px -954px;
+}
+.ms-icon-success-circle-32 {
+  background-position: -96px -962px;
+}
+.ms-icon-error-circle-32 {
+  background-position: -32px -962px;
+}
+
+.ms-icon-delete {
+  background-position: -464px -312px;
+}
+.ms-icon-attach {
+  background-position: -539px -203px;
+}
+
+.ms-icon-arrow-dropdown-white {
+  background-position: -848px -360px;
+}
+.ms-icon-error-input {
+  background-position: -1696px -312px;
+}
+.ms-icon-calendar {
+  background-position: -128px -312px;
+}
